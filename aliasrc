@@ -80,3 +80,25 @@ alias vi='vim'
 alias gds-start='sudo systemctl start openvpn-client@gds'
 alias gds-stop='sudo systemctl stop openvpn-client@gds'
 
+# Mounted Drives
+alias C:="cd /mnt/windows"
+alias D:="cd /mnt/storage"
+alias E:="cd /mnt/supasupweme"
+alias gohome="cd ~/"
+
+# Yay Aliases
+alias yaya="yay"
+alias aya="yay"
+
+# APT-Fast Aliases
+alias "apt install"="sudo apt-fast install"
+alias "apt update"="sudo apt-fast update"
+alias "apt upgrade"="sudo apt-fast upgrade"
+alias "apt dist-upgrade"="sudo apt-fast dist-upgrade"
+alias "apt remove"="sudo apt-fast remove"
+alias "apt purge"="sudo apt-fast purge"
+
+alias sauce="source ~/.zshrc"
+alias update-zsh="~/.zsh/zsh-update-arch.sh"
+
+alias vivaldi="/opt/vivaldi/vivaldi"
