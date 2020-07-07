@@ -99,6 +99,7 @@ alias "apt remove"="sudo apt-fast remove"
 alias "apt purge"="sudo apt-fast purge"
 
 alias sauce="source ~/.zshrc"
-alias update-zsh="~/.zsh/zsh-update-arch.sh"
 
+# Browsers aliases
 alias vivaldi="/opt/vivaldi/vivaldi"
+alias brave="brave-nightly"

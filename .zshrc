@@ -39,15 +39,19 @@ _comp_options+=(globdots)               # Include hidden files.
 
 # Custom ZSH Binds
 bindkey '^ ' autosuggest-accept
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[F"   end-of-line
+bindkey  "^[[3~"  delete-char
 
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/zsh/aliasrc" ] && source "$HOME/zsh/aliasrc"
+[ -f "$HOME/zsh/ghcli.zsh" ] && source "$HOME/zsh/ghcli.zsh"
 
 # Load ; should be last.
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 source /usr/share/autojump/autojump.zsh 2>/dev/null
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/zsh/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
