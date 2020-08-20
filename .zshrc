@@ -46,6 +46,7 @@ bindkey  "^[[3~"  delete-char
 [ -f "$HOME/zsh/aliasrc" ] && source "$HOME/zsh/aliasrc"
 [ -f "$HOME/zsh/ghcli.zsh" ] && source "$HOME/zsh/ghcli.zsh"
 
+neofetch
 # Load ; should be last.
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null

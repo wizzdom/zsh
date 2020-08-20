@@ -4,13 +4,16 @@
 # export GDK_SCALE=1
 # export GDK_DPI_SCALE=1
 export EDITOR="vim"
-# export READER="zathura"
+export READER="evince"
 export VISUAL="vim"
-export TERMINAL="yakuake"
+export TERMINAL="alacritty"
+export TERM="alacritty"
 export BROWSER="firefox"
 export VIDEO="mpv"
-# export IMAGE="sxiv"
+export IMAGE="nomacs"
 export COLORTERM="truecolor"
 export OPENER="xdg-open"
 export PAGER="less"
-# export WM="bspwm"
+export WM="awesome"
+
+PATH=$PATH:~/.local/bin

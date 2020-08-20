@@ -24,7 +24,6 @@ ex ()
   fi
 }
 
-export EDITOR=vim
 
 alias pacman-update='sudo pacman-mirrors --geoip'
 
