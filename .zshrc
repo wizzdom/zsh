@@ -35,6 +35,7 @@ zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)               # Include hidden files.
+eval "$(bw completion --shell zsh); compdef _bw bw;" # Bitwarden cli completion
 
 # Custom ZSH Binds
 bindkey '^ ' autosuggest-accept
@@ -58,3 +59,6 @@ source /usr/share/autojump/autojump.zsh 2>/dev/null
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# To customize prompt, run `p10k configure` or edit ~/.dotfiles/zsh/.p10k.zsh.
+[[ ! -f ~/.dotfiles/zsh/.p10k.zsh ]] || source ~/.dotfiles/zsh/.p10k.zsh

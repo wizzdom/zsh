@@ -3,11 +3,11 @@
 # export QT_SCREEN_SCALE_FACTORS="1;1;1"
 # export GDK_SCALE=1
 # export GDK_DPI_SCALE=1
-export EDITOR="vim"
+export EDITOR="nvim"
 export READER="evince"
-export VISUAL="vim"
+export VISUAL="nvim"
 export TERMINAL="alacritty"
-export TERM="alacritty"
+export TERM="xterm-256color"
 export BROWSER="firefox"
 export VIDEO="mpv"
 export IMAGE="nomacs"
@@ -17,3 +17,4 @@ export PAGER="less"
 export WM="awesome"
 
 PATH=$PATH:~/.local/bin
+
